@@ -1,0 +1,44 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+  the deletions and additions were clearly shown
+  was less time consuming meaning it made my job easy and increased efficeincy
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+  1. It give me the ability to go back and make corrections of the file much more easier than would be starting of the file afresh
+
+  2. If i wanted to create another file from some point back and only change a few thing it gives me that ability and flexibility to do it
+
+  3. It will also enable me to create various version of the programs from some point in the past
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+  Pros
+  1. I will be control over what Icommit, this will ensure I do not commit mistake, or unwanted content. this is unlike the autosave version control
+  2. Manual commit will also allow me not to have too many commits that might not be making sense. only logical versions on the file will be saved. 
+
+  Cons
+  1. I may forget to commit and end up with too long files or even losing my file due to pewer outage etc whcih is not the case with tha autosaved files
+  2. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+  Becasue git keeps track of maltiple files at ago. and this is important in pprograming becasue it is possible that one could be working on one file that affects other file behavior in the program. contrary google doc only tracks one file at a time. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+  1. Fisrt i will go into the directory containing the repository and will run {git log} this will open a list of all the commits in that repository
+
+  2. Then i identify which commits i would like to compare by reading the message delivered by each commit. 
+
+  3. once i have identified the two commits i will run {git diff id1 id2} this will reveal the changed introduced between the two commits.
+  for me to make corrections if any 
+
+
+How might using version control make you more confident to make changes that could break something?
+
+  Using version control can give me the confidence that as i build my code if i mess up on the way i can always go back step by step and identify exactly where the mistake took place without haveing to rewrite the entire code afresh i can identify exactly which commit introduced the problem and fix it whichout even losing the resent changes/upgrade in my code
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+  I would like to use git in my coding right from the word go. i would also like to use it to track my files.
